@@ -1,0 +1,696 @@
+{
+    "1":{
+        "name":"Alewife",
+        "items":[
+            "Rolling pin (close, awkward, 1 wt)",
+            "cask of ale (2 rations, 2 wt)"
+        ]
+    },
+    "2":{
+        "name":"Apiarist",
+        "items":[
+            "Staff (close, reach, 1 wt)",
+            "1d4 clay jars of honey (1 wt ea.)"
+        ]
+    },
+    "3":{
+        "name":"Apothecary",
+        "items":[
+            "Sickle (close, messy, 1 wt)",
+            "mortar & pestle (0 wt)"
+        ]
+    },
+    "4":{
+        "name":"Baker",
+        "items":[
+            "Baking paddle (reach, awkward, 1 wt)",
+            "sack of flour (2 wt)"
+        ]
+    },
+    "5":{
+        "name":"Bard",
+        "items":[
+            "Knife (hand, 0 wt)",
+            "instrument [roll 1d4: 1 = voice; 2 = flute (0 wt); 3 = lute (1 wt); 4 = horn (1 wt)] "
+        ]
+    },
+    "6":{
+        "name":"Basketmaker",
+        "items":[
+            "Knife (hand, 0 wt)",
+            "sturdy basket (1 wt)"
+        ]
+    },
+    "7":{
+        "name":"Beggar",
+        "items":[
+            "1 begging bowl (0 wt)",
+            "1D4 coins"
+        ]
+    },
+    "8":{
+        "name":"Blacksmith",
+        "items":[
+            "Hammer (close, 1 wt)",
+            "burlap sack (0 wt), 1D4 iron ingots (1 wt ea.)"
+        ]
+    },
+    "9":{
+        "name":"Boatwright",
+        "items":[
+            "Handaxe (close, 1 wt)",
+            "2D4 planks of wood (1 wt each)"
+        ]
+    },
+    "10":{
+        "name":"Bowyer",
+        "items":[
+            "Shortbow (near, far, 1 wt)",
+            "arrows (1 ammo, 1 wt), 1d4 sets of staves & sinews (1 wt ea.)"
+        ]
+    },
+    "11":{
+        "name":"Bricklayer",
+        "items":[
+            "Trowel (close, awkward, 1 wt)",
+            "hod (1 wt), 2d4 bricks (1 wt each)"
+        ]
+    },
+    "12":{
+        "name":"Burglar",
+        "items":[
+            "Prybar (close, awkward, 1 wt)",
+            "burlap sack (0 wt)"
+        ]
+    },
+    "13":{
+        "name":"Butcher",
+        "items":[
+            "Cleaver (hand, messy, 1 wt)",
+            "side of salted beef (4 rations, 2 wt)"
+        ]
+    },
+    "14":{
+        "name":"Carpenter",
+        "items":[
+            "Handaxe (close, 1 wt)",
+            "hand saw (1 wt)"
+        ]
+    },
+    "15":{
+        "name":"Cartwright",
+        "items":[
+            "Handaxe (close, 1 wt)",
+            "pushcart "
+        ]
+    },
+    "16":{
+        "name":"Catchpole",
+        "items":[
+            "Club (close, 2 wt)",
+            "shoulder bag (0 wt), 2D6 coins "
+        ]
+    },
+    "17":{
+        "name":"Chandler",
+        "items":[
+            "Staff (close, 2-handed, 1 wt)",
+            "2D4 candles (0 wt)"
+        ]
+    },
+    "18":{
+        "name":"Chapman",
+        "items":[
+            "Staff (close, 2-handed, 1 wt)",
+            "rucksack (0 wt), trade item [roll 1d4: 1 = worthless baubles (0 wt); 2 = smoked fish (2 rations, 1 wt);     3 = adventuring gear (2 uses, 1 wt); 4 = jewelry (25 coins, 0 wt)] "
+        ]
+    },
+    "19":{
+        "name":"Cheesemaker",
+        "items":[
+            "Staff (close, 2-handed, 1 wt)",
+            "burlap sack (0 wt), wheel of cheese (4 rations, 2 wt)"
+        ]
+    },
+    "20":{
+        "name":"Cobbler",
+        "items":[
+            "Tack hammer (hand, 0 wt)",
+            "1d4 pairs of shoes or boots (1 wt ea.)"
+        ]
+    },
+    "21":{
+        "name":"Constable",
+        "items":[
+            "Shortsword (close, 1 wt)",
+            "set of iron cuffs w/key (1 wt)"
+        ]
+    },
+    "22":{
+        "name":"Courier",
+        "items":[
+            "Knife (hand, 0 wt)",
+            "leather satchel (0 wt), important letter (0 wt)"
+        ]
+    },
+    "23":{
+        "name":"Crier",
+        "items":[
+            "Knife (hand, 0 wt)",
+            "plumed hat (worn, 0 wt)"
+        ]
+    },
+    "24":{
+        "name":"Crofter",
+        "items":[
+            "Pitchfork (close, reach, 1 wt)",
+            "bushel of turnips (4 rations, 2 wt)"
+        ]
+    },
+    "25":{
+        "name":"Crofter",
+        "items":[
+            "Pitchfork (close, reach, 1 wt)",
+            "bushel of potatoes (4 rations, 2 wt)"
+        ]
+    },
+    "26":{
+        "name":"Crofter",
+        "items":[
+            "Pitchfork (close, reach, 1 wt)",
+            "bushel of onions (4 rations, 2 wt)"
+        ]
+    },
+    "27":{
+        "name":"Crofter",
+        "items":[
+            "Pitchfork (close, reach, 1 wt)",
+            "bushel of oats (4 rations, 2 wt)"
+        ]
+    },
+    "28":{
+        "name":"Ditch digger",
+        "items":[
+            "Shovel (close, awkward, 2 wt)"
+        ]
+    },
+    "29":{
+        "name":"Dung carter",
+        "items":[
+            "Shovel (close, awkward, 2 wt)",
+            "pushcart full of dung "
+        ]
+    },
+    "30":{
+        "name":"Dwarf miner",
+        "items":[
+            "Pick (close, +1 damage, 2 wt)",
+            "adventuring gear (1d4 uses, 1 wt)"
+        ]
+    },
+    "31":{
+        "name":"Dwarf smith",
+        "items":[
+            "Hammer (close, 1 wt)",
+            "burlap sack (0 wt), 1d4 iron ingots (1 wt ea.)"
+        ]
+    },
+    "32":{
+        "name":"Dwarf mason",
+        "items":[
+            "Hammer (close, 1 wt)",
+            "chisel (hand, awkward, 1 wt)"
+        ]
+    },
+    "33":{
+        "name":"Dwarf trapper",
+        "items":[
+            "Knife (hand, 0 wt)",
+            "burlap sack (0 wt), 1d4 mole traps (1 wt ea.)"
+        ]
+    },
+    "34":{
+        "name":"Elf hunter",
+        "items":[
+            "Shortbow (near, far, 1 wt)",
+            "arrows (1d4 ammo, 1 wt)"
+        ]
+    },
+    "35":{
+        "name":"Elf troubador",
+        "items":[
+            "Knife (hand, 0 wt)",
+            "elven lyre (1 wt)"
+        ]
+    },
+    "36":{
+        "name":"Elf wanderer",
+        "items":[
+            "Staff (close, reach, 1 wt)",
+            "hooded cloak (worn, 0 wt)"
+        ]
+    },
+    "37":{
+        "name":"Elf weaver",
+        "items":[
+            "Knife (hand, 0 wt)",
+            "bolt of silk (2 wt)"
+        ]
+    },
+    "38":{
+        "name":"Executioner",
+        "items":[
+            "Executioner axe (close, 2-handed, messy, +1 damage, 2 wt) ,black hood (worn, 0 wt)"
+        ]
+    },
+    "39":{
+        "name":"Falconer",
+        "items":[
+            "Knife (hand, 0 wt)",
+            "leather gauntlet (0 wt), falcon"
+        ]
+    },
+    "40":{
+        "name":"Ferry pilot",
+        "items":[
+            "Club (close, 2 wt)",
+            "10ft pole "
+        ]
+    },
+    "41":{
+        "name":"Fisherperson",
+        "items":[
+            "Knife (hand, 0 wt)",
+            "fishing net (reach, thrown)"
+        ]
+    },
+    "42":{
+        "name":"Fisherperson",
+        "items":[
+            "Knife (hand, 0 wt)",
+            "fishing net (reach, thrown)"
+        ]
+    },
+    "43":{
+        "name":"Fisherperson",
+        "items":[
+            "Knife (hand, 0 wt)",
+            "fishing net (reach, thrown)"
+        ]
+    },
+    "44":{
+        "name":"Fletcher",
+        "items":[
+            "Shortbow (near, far, 1 wt)",
+            "arrows (1d4 ammo, 1 wt)"
+        ]
+    },
+    "45":{
+        "name":"Footpad",
+        "items":[
+            "Sap (hand, stun damage, 0 wt)",
+            "burlap sack (0 wt)"
+        ]
+    },
+    "46":{
+        "name":"Forager",
+        "items":[
+            "Sickle (hand, messy, 1 wt)",
+            "burlap sack (0 wt), mushrooms     (1d4 rations, 1 wt)"
+        ]
+    },
+    "47":{
+        "name":"Forester",
+        "items":[
+            "Shortbow (near, far, 1 wt)",
+            "arrows (1d4 ammo, 1 wt)"
+        ]
+    },
+    "48":{
+        "name":"Goatherd",
+        "items":[
+            "Crook (reach, awkward, 1 wt)",
+            "1d4 goats"
+        ]
+    },
+    "49":{
+        "name":"Goatherd",
+        "items":[
+            "Crook (reach, awkward, 1 wt)",
+            "1d4 goats"
+        ]
+    },
+    "50":{
+        "name":"Goatherd",
+        "items":[
+            "Crook (reach, awkward, 1 wt)",
+            "1d4 goats"
+        ]
+    },
+    "51":{
+        "name":"Gravedigger",
+        "items":[
+            "Shovel (close, awkward, 2 wt)"
+        ]
+    },
+    "52":{
+        "name":"Halfling brewer",
+        "items":[
+            "Staff (close, 2-handed, 1 wt)",
+            "cask of beer (2 rations, 2 wt)"
+        ]
+    },
+    "53":{
+        "name":"Halfling cook",
+        "items":[
+            "Cleaver (hand, +1 damage, 1 wt)",
+            "meat pies (1d4 rations, 1 wt)"
+        ]
+    },
+    "54":{
+        "name":"Halfling crofter",
+        "items":[
+            "Pitchfork (close, reach, 1 wt)",
+            "bushel of crop [2 wt, roll 1D4: 1 = turnips (4 rations); 2 = potatoes (4 rations); 3 =onions (4 rations), 4 =pipeweed]"
+        ]
+    },
+    "55":{
+        "name":"Halfling gardener",
+        "items":[
+            "Spade (hand, awkward, 0 wt)",
+            "wheelbarrow"
+        ]
+    },
+    "56":{
+        "name":"Healer",
+        "items":[
+            "Staff (close, 2-handed, 1 wt)",
+            "shoulder bag (0 wt), bandages (1d4 uses, slow, 0 wt)"
+        ]
+    },
+    "57":{
+        "name":"Hedge wizard",
+        "items":[
+            "Staff (close, 2-handed, 1 wt)",
+            "belt pouch (0 wt), 1 cantrip [roll 1D6: 1-2 = Light; 3-4 = Unseen Servant; 5-6 = Prestidigitation]"
+        ]
+    },
+    "58":{
+        "name":"Herald",
+        "items":[
+            "Shortsword (close, 1 wt)",
+            "trumpet (1 wt)"
+        ]
+    },
+    "59":{
+        "name":"Herbalist",
+        "items":[
+            "Staff (close, 2-handed, 1 wt)",
+            "pouch (0 wt), poultices & herbs (1d4 uses, slow, 0 wt)"
+        ]
+    },
+    "60":{
+        "name":"Hunter",
+        "items":[
+            "Shortbow (near, far, 1 wt)",
+            "arrows (1d4 ammo, 1 wt)"
+        ]
+    },
+    "61":{
+        "name":"Hunter",
+        "items":[
+            "Shortbow (near, far, 1 wt)",
+            "arrows (1d4 ammo, 1 wt)"
+        ]
+    },
+    "62":{
+        "name":"Hunter",
+        "items":[
+            "Shortbow (near, far, 1 wt)",
+            "arrows (1d4 ammo, 1 wt)"
+        ]
+    },
+    "63":{
+        "name":"Innkeeper",
+        "items":[
+            "Club (close, 2 wt)",
+            "provisions (2d4 rations, 2 wt)"
+        ]
+    },
+    "64":{
+        "name":"Lantern",
+        "items":[
+            "maker Hammer (close, 1 wt)",
+            "lantern (0 wt), flask of oil (0 wt), flint & steel (0 wt)"
+        ]
+    },
+    "65":{
+        "name":"Laundress",
+        "items":[
+            "Canvas sack (0 wt)",
+            "cake of soap (0 wt)"
+        ]
+    },
+    "66":{
+        "name":"Miller",
+        "items":[
+            "Club (close, 2 wt)",
+            "sack of flour (2 wt)"
+        ]
+    },
+    "67":{
+        "name":"Miner",
+        "items":[
+            "Pick (close, +1 damage, 2 wt)",
+            "lantern (0 wt), flask of oil (0 wt), flint & steel (0 wt)"
+        ]
+    },
+    "68":{
+        "name":"Monk",
+        "items":[
+            "Staff (close, 2-handed, 1 wt)",
+            "holy symbol (0 wt)"
+        ]
+    },
+    "69":{
+        "name":"Netmaker",
+        "items":[
+            "Knife (hand, 0 wt)",
+            "fishing net (reach, thrown), 50ft of rope (2 wt)"
+        ]
+    },
+    "70":{
+        "name":"Noble",
+        "items":[
+            "Longsword (close, +1 damage, 1 wt)",
+            "signet ring (10 coins, 0 wt)"
+        ]
+    },
+    "71":{
+        "name":"Oxherd",
+        "items":[
+            "Whip (reach, 1 wt)",
+            "ox"
+        ]
+    },
+    "72":{
+        "name":"Peddler",
+        "items":[
+            "Knife (hand, 0 wt)",
+            "rucksack (worn, 0 wt), trade item [roll 1D4: 1 = pots & pans (2 wt); 2 = 2d4 knives (hand, 0 wt), 3 = adventuring gear (1d4 uses, 2 wt), 4 = 1d4 healing potions (heal 1d8, 0 wt)]"
+        ]
+    },
+    "73":{
+        "name":"Pilgrim",
+        "items":[
+            "Staff (close, 2-handed, 1 wt)",
+            "holy symbol (0 wt)"
+        ]
+    },
+    "74":{
+        "name":"Potter",
+        "items":[
+            "Club (close, 2 wt)",
+            "burlap sack (0 wt), 5 lbs. of clay (2 wt)"
+        ]
+    },
+    "75":{
+        "name":"Prostitute",
+        "items":[
+            "Knife (hand, 0 wt)",
+            "flask of perfume (0 wt)"
+        ]
+    },
+    "76":{
+        "name":"Rat catcher",
+        "items":[
+            "Club (close, 2 wt)",
+            "burlap sack (0 wt), 2d4 dead rats (1 wt)"
+        ]
+    },
+    "77":{
+        "name":"Ropemaker",
+        "items":[
+            "Club (close, 2 wt)",
+            "100ft of rope (2 wt)"
+        ]
+    },
+    "78":{
+        "name":"Scout",
+        "items":[
+            "Knife (hand, 0 wt)",
+            "cloak (worn, 0 wt)"
+        ]
+    },
+    "79":{
+        "name":"Scribe",
+        "items":[
+            "2d4 pieces of parchment (0 wt)",
+            "quill & bottle of ink (0 wt)"
+        ]
+    },
+    "80":{
+        "name":"Shepherd",
+        "items":[
+            "Crook (reach, awkward, 1 wt)",
+            "1d4 sheep"
+        ]
+    },
+    "81":{
+        "name":"Shepherd",
+        "items":[
+            "Crook (reach, awkward, 1 wt)",
+            "1d4 sheep"
+        ]
+    },
+    "82":{
+        "name":"Shepherd",
+        "items":[
+            "Crook (reach, awkward, 1 wt)",
+            "1d4 sheep"
+        ]
+    },
+    "83":{
+        "name":"Soothsayer",
+        "items":[
+            "Nothing"
+        ]
+    },
+    "84":{
+        "name":"Swineherd",
+        "items":[
+            "Crook (reach, awkward, 1 wt)",
+            "1d4 swine"
+        ]
+    },
+    "85":{
+        "name":"Swineherd",
+        "items":[
+            "Crook (reach, awkward, 1 wt)",
+            "1d4 swine"
+        ]
+    },
+    "86":{
+        "name":"Swineherd",
+        "items":[
+            "Crook (reach, awkward, 1 wt)",
+            "1d4 swine"
+        ]
+    },
+    "87":{
+        "name":"Tanner",
+        "items":[
+            "Knife (hand, 0 wt)",
+            "2d4 animal hides (2 wt)"
+        ]
+    },
+    "88":{
+        "name":"Thatcher",
+        "items":[
+            "Handaxe (close, 1 wt)",
+            "1d4 sheaves of straw (1 wt ea.)"
+        ]
+    },
+    "89":{
+        "name":"Tinker",
+        "items":[
+            "Tinkers tools (0 wt)"
+        ]
+    },
+    "90":{
+        "name":"Trapper",
+        "items":[
+            "Knife (hand, 0 wt)",
+            "traps [roll 1D4: 1 = 2d4 rat traps (0 wt); 2 = 1d4 rabbit traps (2 wt); 3 = 1 snare trap (1 wt); 4 = 1 bear trap (2 wt)"
+        ]
+    },
+    "91":{
+        "name":"Trapper",
+        "items":[
+            "Knife (hand, 0 wt)",
+            "traps [roll 1D4: 1 = 2d4 rat traps (0 wt); 2 = 1d4 rabbit traps (2 wt); 3 = 1 snare trap (1 wt); 4 = 1 bear trap (2 wt)"
+        ]
+    },
+    "92":{
+        "name":"Trapper",
+        "items":[
+            "Knife (hand, 0 wt)",
+            "traps [roll 1D4: 1 = 2d4 rat traps (0 wt); 2 = 1d4 rabbit traps (2 wt); 3 = 1 snare trap (1 wt); 4 = 1 bear trap (2 wt)"
+        ]
+    },
+    "93":{
+        "name":"Undertaker",
+        "items":[
+            "Holy symbol (0 wt)",
+            "coffin (4 wt)"
+        ]
+    },
+    "94":{
+        "name":"Watchman",
+        "items":[
+            "Spear (reach, thrown, near, 1 wt)",
+            "helmet (worn, 0 wt), lantern (0 wt), flask of oil (0 wt), flint & steel (0 wt), horn (0 wt)"
+        ]
+    },
+    "95":{
+        "name":"Watchman",
+        "items":[
+            "Spear (reach, thrown, near, 1 wt)",
+            "helmet (worn, 0 wt), lantern (0 wt), flask of oil (0 wt), flint & steel (0 wt), horn (0 wt)"
+        ]
+    },
+    "96":{
+        "name":"Watchman",
+        "items":[
+            "Spear (reach, thrown, near, 1 wt)",
+            "helmet (worn, 0 wt), lantern (0 wt), flask of oil (0 wt), flint & steel (0 wt), horn (0 wt)"
+        ]
+    },
+    "97":{
+        "name":"Weaver",
+        "items":[
+            "1d4 bolts of fabric (1 wt ea.)"
+        ]
+    },
+    "98":{
+        "name":"Woodsman",
+        "items":[
+            "Handaxe (close, 1 wt)",
+            "2d4 sticks of firewood (1 wt ea.)"
+        ]
+    },
+    "99":{
+        "name":"Woodsman",
+        "items":[
+            "Handaxe (close, 1 wt)",
+            "2d4 sticks of firewood (1 wt ea.)"
+        ]
+    },
+    "100":{
+        "name":"Woodsman",
+        "items":[
+            "Handaxe (close, 1 wt)",
+            "2d4 sticks of firewood (1 wt ea.)"
+        ]
+    }
+}
