@@ -1,24 +1,23 @@
 import React from 'react';
 import './App.css';
+import CharacterSheet from './components/characterSheet';
+import {connect} from 'react-redux';
+import { createCharacter } from './state/actions';
 
-function App() {
+function App({ createCharacter }) {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <button className="generateButton" onClick={createCharacter}>Make My Character</button>
+        <CharacterSheet />
+        
       </header>
     </div>
   );
 }
 
-export default App;
+const mapDispatchToProps = {
+  createCharacter
+}
+
+export default connect(null, mapDispatchToProps)(App);

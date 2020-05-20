@@ -9,7 +9,7 @@ const maleNames = [ 'Abeodan', 'Ace', 'Acwel', 'Aelle', 'Agyfen', 'Aheawan', 'Al
 'Ro', 'Rypan', 'Scrydan', 'Seward', 'Sihtric', 'Stearc', 'Stedman', 'Swift', 'Tamar', 'Tolan', 'Trace',
 'Waelfwulf', 'Winter', 'Wissian', 'Worthington']
 
-const femaleNames = [ 'Acca' 'Aedre', 'Aefentid', 'Aefre', 'Aethelflaed', 'Aethelthryth', 'Alodia', 'Alodie',
+const femaleNames = [ 'Acca', 'Aedre', 'Aefentid', 'Aefre', 'Aethelflaed', 'Aethelthryth', 'Alodia', 'Alodie',
 'Andsware', 'Anlicnes', 'Annis', 'Ar', 'Ardith', 'Arianrod', 'Ashley', 'Audrey', 'Bearrocscir', 'Bernia', 'Bisgu',
 'Bletsung', 'Bliss', 'Blythe', 'Bodicea', 'Brigantia', 'Brimlad', 'Bysen', 'Cartimandua', 'Cearo', 'Chelsea', 'Claennis',
 'Clover', 'Cwen', 'Cyst', 'Daedbot', 'Daisy', 'Darel', 'Darelene', 'Darelle', 'Darline', 'Daryl', 'Dawn',
@@ -27,3 +27,5 @@ const maleElfNames = ['Analith', 'Celaith', 'Elromir', 'Fondel', 'Galoldur', 'Ho
 const femaleElfNames = ['Cadrielith', 'Deleviel', 'Eariothiel', 'Elronia', 'Galaniel', 'Legarawen', 'Milmalith', 'Sithrade', 'Tinoniel', 'Throrfiviel']
 const maleHalflingNames = ['Adelard', 'Andwise', 'Calkin', 'Eldon', 'Falco', 'Griffo', 'Halfred', 'Olo', 'Rosco', 'Seredoc']
 const femaleHalflingNames = ['Amaryllia', 'Carissa', 'Donamira', 'Lavinia', 'Marigold', 'Myrtle', 'Pearl', 'Ruby', 'Seraphina', 'Violet']
+
+export default maleNames;
