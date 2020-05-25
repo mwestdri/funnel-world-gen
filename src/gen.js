@@ -17,20 +17,20 @@ const rollStat = () => {
 }
 const convertToModifier = (score) => {
     switch(true) {
-        case (score == 3):
+        case (score === 3):
             return -3;
         case (score <= 5):
             return -2;
         case (score <= 8):
             return -1;
         case (score <= 12):
-            return 0;
+            return +0;
         case (score <= 15):
-            return 1;
+            return +1;
         case (score <= 17):
-            return 2;
-        case (score == 18):
-            return 3;
+            return +2;
+        case (score === 18):
+            return +3;
         default:
             return -20;
     }
@@ -42,11 +42,11 @@ const getIndividualStat = (stat) => {
 }
 
 const getOccupation = () => {
-    const idx = roll(100);
+    const idx = roll(100) - 1;
     return occupations[idx];
 }
 const getName = (gender) => {
-    const idx = roll(100)
+    const idx = roll(100) - 1;
     return gender === 'Male' ? maleNames[idx] : femaleNames[idx];
 }
 // const getName = (occ, gender) => {
@@ -84,11 +84,11 @@ const getName = (gender) => {
 // 	  	 return names.femaleHalflingNames[index]
 // }
 const getPhysTrait = () => {
-   const index = roll(100);
+   const index = roll(100) - 1;
    return physicalTraits[index]
 }
 const getPersTrait = () => {
-   const index = roll(100)
+   const index = roll(100) - 1;
    return personalityTraits[index]
 }
 const getTraits = () => {
@@ -106,14 +106,6 @@ const getTraits = () => {
 // name = getName(occ, gender)
 // print('Name: '+getName(occ, gender))
 
-// print('Occupation: '+occ)
-// print ('Gender: '+gender+'\n')
-
-// print('Traits:')
-// print('Physical trait: '+str(getPhysTrait()))
-// print('Personality trait: '+str(getPersTrait()))
-
-// print('\n\n############## Ability Scores and Modifiers ##############\n')
 const getStats = () => {
     const constitutionRawScore = rollStat();
     const hp = Math.ceil(constitutionRawScore/4);
@@ -166,8 +158,4 @@ const getStats = () => {
     return stats;
 }
 
-// hp=math.ceil(float(con)/4)
-// load=mod(st) + 4
-// print('\nHP: '+str(hp))
-// print('LOAD: '+str(load))
 export {getName, getGender, getOccupation, getStats, getTraits};

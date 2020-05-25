@@ -1,0 +1,22 @@
+.charSheet {
+    border: 1px solid #586e75;
+    margin: 30px;
+    padding: 15px;
+    max-width: 350px;
+    border-radius: 3px;
+}
+
+.statsContainer {
+    border: 1px solid #586e75;
+    padding: 10px;
+    width: 50%;
+}
+.hpLoad {
+    padding-right: 10px;
+}
+.section {
+    margin: 10px 0;
+}
+.stat {
+    margin-top: 10px;
+}

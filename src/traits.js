@@ -1,14 +1,14 @@
-const physicalTraits = ['Bald', 'Balding', 'Barrel-chested', 'Big feet', 'Big hands', 'Bloodshot eyes', 'Blue-eyed', 'Bony', 'Booming voice',
-'Braided hair', 'Broad brow', 'Broad chest', 'Broad hips', 'Broad shoulders', 'Buck teeth', 'Bushy eyebrows', 'Cleft chin', 'Crooked teeth',
-'Curly hair', 'Dark eyes', 'Dark skin', 'Dimples', 'Dirty', 'Fair-haired', 'Fat', 'Freckled', 'Full lips',
-'Furrowed brow', 'Glowering', 'Gnarled fingers', 'Greasy-looking', 'Hairless', 'Hawk-nosed', 'High cheekbones', 'Hirsute',
+const physicalTraits = ['Bald', 'Balding', 'Barrel-chested', 'Big-footed', 'Big-handed', 'Bloodshot-eyed', 'Blue-eyed', 'Bony', 'Booming voice',
+'Braided hair', 'Broad brow', 'Broad-chested', 'Broad hips', 'Broad shoulders', 'Buck teeth', 'Bushy-browed', 'Cleft-chin', 'Crooked-toothed',
+'Curly hair', 'Dark eyes', 'Dark skin', 'Dimples', 'Dirty', 'Fair-haired', 'Fat', 'Freckled', 'Full-lipped',
+'Furrowed brow', 'Glowering', 'Gnarled fingers', 'Greasy-looking', 'Hairless', 'Hawk-nosed', 'High cheekboned', 'Hirsute',
 'Hunchback', 'Husky voice', 'Lambchop sideburns', 'Lanky', 'Large ears', 'Large eyes', 'Large eyes',
-'Large nose', 'Lazy eye', 'Limp', 'Long arms', 'Long beard', 'Long fingers', 'Long legs', 'Long mustache',
-'Long torso', 'Matted hair', 'Missing teeth', 'Nasal voice', 'Nearsighted', 'Nose ring', 'One ear', 'One eye',
-'One hand', 'Pale skin', 'Peg leg', 'Persistent cough', 'Petite', 'Piercing(s)', 'Plump', 'Pop-eyed',
-'Pot-bellied', 'Quiet voice', 'Rosy cheeks', 'Rotten teeth', 'Ruddy', 'Scars(s)', 'Scowly', 'Sharp chin', 'Sharp fingernails', 'Short',
+'Large nose', 'Lazy eye', 'Limp', 'Long arms', 'Long beard', 'Long fingers', 'Long legged', 'Long mustachioed',
+'Long torso', 'Matted hair', 'Missing teeth', 'Nasal voice', 'Nearsighted', 'Nose ring', 'One eared', 'One eyed',
+'One hand', 'Pale skin', 'Peg leg', 'Persistent cough', 'Petite', 'Heavily Pierced', 'Plump', 'Pop-eyed',
+'Pot-bellied', 'Soft-voiced', 'Rosy-cheeked', 'Rotten teeth', 'Ruddy', 'Heavily Scarred', 'Scowly', 'Sharp chin', 'Sharp fingernails', 'Short',
 'Short hair', 'Skinny', 'Small ears', 'Small eyes', 'Small feet', 'Small hands', 'Small nose', 'Smiley', 'Spade-like hands', 'Square jaw', 'Stocky',
-'Stubby fingers', 'Swan-like neck', 'Tall', 'Tattoo(s)', 'Thick neck', 'Unibrow', 'Wavy hair', 'Weathered', 'Well-built', 'Well-groomed',
+'Stubby fingers', 'Swan-necked', 'Tall', 'Tattooed', 'Thick necked', 'Unibrowed', 'Wavy haired', 'Weathered', 'Well-built', 'Well-groomed',
 'Wheezy', 'Whiny', 'Wild hair']
 
 
