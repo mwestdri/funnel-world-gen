@@ -1,4 +1,4 @@
-const physical = ['Bald', 'Balding', 'Barrel-chested', 'Big feet', 'Big hands', 'Bloodshot eyes', 'Blue-eyed', 'Bony', 'Booming voice',
+const physicalTraits = ['Bald', 'Balding', 'Barrel-chested', 'Big feet', 'Big hands', 'Bloodshot eyes', 'Blue-eyed', 'Bony', 'Booming voice',
 'Braided hair', 'Broad brow', 'Broad chest', 'Broad hips', 'Broad shoulders', 'Buck teeth', 'Bushy eyebrows', 'Cleft chin', 'Crooked teeth',
 'Curly hair', 'Dark eyes', 'Dark skin', 'Dimples', 'Dirty', 'Fair-haired', 'Fat', 'Freckled', 'Full lips',
 'Furrowed brow', 'Glowering', 'Gnarled fingers', 'Greasy-looking', 'Hairless', 'Hawk-nosed', 'High cheekbones', 'Hirsute',
@@ -12,7 +12,7 @@ const physical = ['Bald', 'Balding', 'Barrel-chested', 'Big feet', 'Big hands', 
 'Wheezy', 'Whiny', 'Wild hair']
 
 
-const personality = ['Absentminded', 'Aggressive', 'Aloof', 'Ambitious', 'Arrogant', 'Callous', 'Calm', 'Cantankerous', 'Cautious', 'Cheerful', 'Coarse', 'Competitive',
+const personalityTraits = ['Absentminded', 'Aggressive', 'Aloof', 'Ambitious', 'Arrogant', 'Callous', 'Calm', 'Cantankerous', 'Cautious', 'Cheerful', 'Coarse', 'Competitive',
 'Conceited', 'Confident', 'Conscientious', 'Courageous', 'Courteous', 'Covetous', 'Cowardly', 'Crazy', 'Crude', 'Curious',
 'Cynical', 'Daring', 'Deceitful', 'Decisive', 'Dignified', 'Disciplined', 'Drunkard', 'Earnest',
 'Earthy', 'Efficient', 'Egocentric', 'Enthusiastic', 'Fatalistic', 'Fiery', 'Foolish', 'Forgiving', 'Forthright',
@@ -22,3 +22,5 @@ const personality = ['Absentminded', 'Aggressive', 'Aloof', 'Ambitious', 'Arroga
 'Pedantic', 'Plodding', 'Power-hungry', 'Protective', 'Proud', 'Quiet', 'Realistic', 'Religious', 'Romantic', 'Sadistic', 'Sanctimonious', 'Sarcastic', 'Secretive',
 'Selfless', 'Serious', 'Shrewd', 'Solitary', 'Steadfast', 'Stoic', 'Stone-cold', 'Stubborn', 'Superstitious',
 'Suspicious', 'Thorough', 'Timid', 'Treacherous', 'Trusting']
+
+export {physicalTraits, personalityTraits};
