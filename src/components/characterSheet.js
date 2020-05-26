@@ -1,20 +1,28 @@
 import React from 'react';
 import styled from 'styled-components';
 import { connect } from 'react-redux';
-import './characterSheet.css';
 
 const Container = styled.div`
   background-color: #EDF2F4;
   color: #2B2D42;
   padding: 20px 20px 30px 20px;
-  max-width: 800px;
+  max-width: 600px;
   min-width: 500px;
 `
 
 const Name = styled.div`
   font-size: 30px;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+`;
+
+const Sheet = styled.div`
+  display: flex;
+  flex-direction: row;
+`;
+
+const Details = styled.div`
+  margin-top: 10px;
 `;
 
 const List = styled.ul`
@@ -22,7 +30,7 @@ const List = styled.ul`
 `;
 
 const Stats = styled.div`
-  margin-top: 40px;
+  width: 40%;
 `;
 
 const StatBlock = styled.div`
@@ -89,46 +97,46 @@ const HeartStat = styled.div`
   top: 2px;
 `;
 
-const CharacterSheet = ({name, gender, occupation, equipment, stats, traits}) => {
-    const hpLoadStats = stats.slice(-2);
-
-    return(
-        <Container>
-          <Name> {name} { gender === 'Male' ? '(He/Him)' : '(She/Her)' }</Name>
-          <div> Occupation: {occupation} </div>
-          <div> Traits: </div>
-          <List>
-            <li> {traits.personality} </li>
-            <li> {traits.physical} </li>
-          </List>
-          <div> Equipment: </div>
-          <List>
-            {equipment.map(equip => ( <li> {equip} </li> ))}
-          </List>
-          <Stats>
-            <div>
-              {stats.length &&
-                <StatBlock>
-                  <StatName>HP</StatName>
-                  <Health>
-                    <Heart></Heart>
-                    <HeartStat wide={stats[stats.length - 2].value > 10}> {stats[stats.length - 2].value} </HeartStat>
-                  </Health>
-                </StatBlock>
-              }
-            </div>
-            <div>
-                {stats.slice(0, stats.length - 2).map(x => (
-                  <StatBlock key={x.shortName}>
-                    <StatName> {x.shortName} </StatName>
-                    <StatMod> {x.value}</StatMod>
-                  </StatBlock>
-                ))}
-            </div>
-          </Stats>
-        </Container>
-    )
-}
+const CharacterSheet = ({name, gender, occupation, equipment, stats, traits}) => (
+  <Container>
+    <Name> {name} { gender === 'Male' ? '(He/Him)' : '(She/Her)' }</Name>
+    <Sheet>
+      <Stats>
+        <div>
+          {stats.length &&
+            <StatBlock>
+              <StatName>HP</StatName>
+              <Health>
+                <Heart></Heart>
+                <HeartStat wide={stats[stats.length - 2].value > 10}> {stats[stats.length - 2].value} </HeartStat>
+              </Health>
+            </StatBlock>
+          }
+        </div>
+        <div>
+            {stats.slice(0, stats.length - 2).map(x => (
+              <StatBlock key={x.shortName}>
+                <StatName> {x.shortName} </StatName>
+                <StatMod> {x.value}</StatMod>
+              </StatBlock>
+            ))}
+        </div>
+      </Stats>
+      <Details>
+        <div> Occupation: {occupation} </div>
+        <div> Traits: </div>
+        <List>
+          <li> {traits.personality} </li>
+          <li> {traits.physical} </li>
+        </List>
+        <div> Equipment: </div>
+        <List>
+          {equipment.map(equip => ( <li> {equip} </li> ))}
+        </List>
+      </Details>
+    </Sheet>
+  </Container>
+)
 
 const mapStateToProps = (state) => {
     return {
