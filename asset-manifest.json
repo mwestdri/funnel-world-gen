@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/funnel-world-gen/static/css/main.f8d6ade0.chunk.css",
+    "main.js": "/funnel-world-gen/static/js/main.b12d35be.chunk.js",
+    "main.js.map": "/funnel-world-gen/static/js/main.b12d35be.chunk.js.map",
+    "runtime-main.js": "/funnel-world-gen/static/js/runtime-main.cfd1a4d8.js",
+    "runtime-main.js.map": "/funnel-world-gen/static/js/runtime-main.cfd1a4d8.js.map",
+    "static/js/2.6f0e597d.chunk.js": "/funnel-world-gen/static/js/2.6f0e597d.chunk.js",
+    "static/js/2.6f0e597d.chunk.js.map": "/funnel-world-gen/static/js/2.6f0e597d.chunk.js.map",
+    "index.html": "/funnel-world-gen/index.html",
+    "precache-manifest.60463d7d1ac2fbf0940e995c79b7c383.js": "/funnel-world-gen/precache-manifest.60463d7d1ac2fbf0940e995c79b7c383.js",
+    "service-worker.js": "/funnel-world-gen/service-worker.js",
+    "static/css/main.f8d6ade0.chunk.css.map": "/funnel-world-gen/static/css/main.f8d6ade0.chunk.css.map",
+    "static/js/2.6f0e597d.chunk.js.LICENSE.txt": "/funnel-world-gen/static/js/2.6f0e597d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cfd1a4d8.js",
+    "static/js/2.6f0e597d.chunk.js",
+    "static/css/main.f8d6ade0.chunk.css",
+    "static/js/main.b12d35be.chunk.js"
+  ]
+}
