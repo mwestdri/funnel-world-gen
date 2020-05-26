@@ -19,6 +19,7 @@ const root = (state=initialState, action) => {
             return {
                 ...state,
                 gender: gender,
+                race: occupationInfo.race,
                 stats: getStats(),
                 occupation: occupationInfo.name,
                 equipment: occupationInfo.items,

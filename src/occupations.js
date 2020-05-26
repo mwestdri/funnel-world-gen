@@ -1,6 +1,7 @@
 const occupations = [
     {
         "name":"Alewife",
+        "race":"Human",
         "items":[
             "Rolling pin (close, awkward, 1 wt)",
             "cask of ale (2 rations, 2 wt)"
@@ -8,6 +9,7 @@ const occupations = [
     },
     {
         "name":"Apiarist",
+        "race":"Human",
         "items":[
             "Staff (close, reach, 1 wt)",
             "1d4 clay jars of honey (1 wt ea.)"
@@ -15,6 +17,7 @@ const occupations = [
     },
     {
         "name":"Apothecary",
+        "race":"Human",
         "items":[
             "Sickle (close, messy, 1 wt)",
             "mortar & pestle (0 wt)"
@@ -22,6 +25,7 @@ const occupations = [
     },
     {
         "name":"Baker",
+        "race":"Human",
         "items":[
             "Baking paddle (reach, awkward, 1 wt)",
             "sack of flour (2 wt)"
@@ -29,6 +33,7 @@ const occupations = [
     },
     {
         "name":"Bard",
+        "race":"Human",
         "items":[
             "Knife (hand, 0 wt)",
             "instrument [roll 1d4: 1 = voice; 2 = flute (0 wt); 3 = lute (1 wt); 4 = horn (1 wt)] "
@@ -36,6 +41,7 @@ const occupations = [
     },
     {
         "name":"Basketmaker",
+        "race":"Human",
         "items":[
             "Knife (hand, 0 wt)",
             "sturdy basket (1 wt)"
@@ -43,6 +49,7 @@ const occupations = [
     },
     {
         "name":"Beggar",
+        "race":"Human",
         "items":[
             "1 begging bowl (0 wt)",
             "1D4 coins"
@@ -50,6 +57,7 @@ const occupations = [
     },
     {
         "name":"Blacksmith",
+        "race":"Human",
         "items":[
             "Hammer (close, 1 wt)",
             "burlap sack (0 wt), 1D4 iron ingots (1 wt ea.)"
@@ -57,6 +65,7 @@ const occupations = [
     },
     {
         "name":"Boatwright",
+        "race":"Human",
         "items":[
             "Handaxe (close, 1 wt)",
             "2D4 planks of wood (1 wt each)"
@@ -64,6 +73,7 @@ const occupations = [
     },
     {
         "name":"Bowyer",
+        "race":"Human",
         "items":[
             "Shortbow (near, far, 1 wt)",
             "arrows (1 ammo, 1 wt), 1d4 sets of staves & sinews (1 wt ea.)"
@@ -71,6 +81,7 @@ const occupations = [
     },
     {
         "name":"Bricklayer",
+        "race":"Human",
         "items":[
             "Trowel (close, awkward, 1 wt)",
             "hod (1 wt), 2d4 bricks (1 wt each)"
@@ -78,6 +89,7 @@ const occupations = [
     },
     {
         "name":"Burglar",
+        "race":"Human",
         "items":[
             "Prybar (close, awkward, 1 wt)",
             "burlap sack (0 wt)"
@@ -85,6 +97,7 @@ const occupations = [
     },
     {
         "name":"Butcher",
+        "race":"Human",
         "items":[
             "Cleaver (hand, messy, 1 wt)",
             "side of salted beef (4 rations, 2 wt)"
@@ -92,6 +105,7 @@ const occupations = [
     },
     {
         "name":"Carpenter",
+        "race":"Human",
         "items":[
             "Handaxe (close, 1 wt)",
             "hand saw (1 wt)"
@@ -99,6 +113,7 @@ const occupations = [
     },
     {
         "name":"Cartwright",
+        "race":"Human",
         "items":[
             "Handaxe (close, 1 wt)",
             "pushcart "
@@ -106,6 +121,7 @@ const occupations = [
     },
     {
         "name":"Catchpole",
+        "race":"Human",
         "items":[
             "Club (close, 2 wt)",
             "shoulder bag (0 wt), 2D6 coins "
@@ -113,6 +129,7 @@ const occupations = [
     },
     {
         "name":"Chandler",
+        "race":"Human",
         "items":[
             "Staff (close, 2-handed, 1 wt)",
             "2D4 candles (0 wt)"
@@ -120,6 +137,7 @@ const occupations = [
     },
     {
         "name":"Chapman",
+        "race":"Human",
         "items":[
             "Staff (close, 2-handed, 1 wt)",
             "rucksack (0 wt), trade item [roll 1d4: 1 = worthless baubles (0 wt); 2 = smoked fish (2 rations, 1 wt);     3 = adventuring gear (2 uses, 1 wt); 4 = jewelry (25 coins, 0 wt)] "
@@ -127,6 +145,7 @@ const occupations = [
     },
     {
         "name":"Cheesemaker",
+        "race":"Human",
         "items":[
             "Staff (close, 2-handed, 1 wt)",
             "burlap sack (0 wt), wheel of cheese (4 rations, 2 wt)"
@@ -134,6 +153,7 @@ const occupations = [
     },
     {
         "name":"Cobbler",
+        "race":"Human",
         "items":[
             "Tack hammer (hand, 0 wt)",
             "1d4 pairs of shoes or boots (1 wt ea.)"
@@ -141,6 +161,7 @@ const occupations = [
     },
     {
         "name":"Constable",
+        "race":"Human",
         "items":[
             "Shortsword (close, 1 wt)",
             "set of iron cuffs w/key (1 wt)"
@@ -148,6 +169,7 @@ const occupations = [
     },
     {
         "name":"Courier",
+        "race":"Human",
         "items":[
             "Knife (hand, 0 wt)",
             "leather satchel (0 wt), important letter (0 wt)"
@@ -155,6 +177,7 @@ const occupations = [
     },
     {
         "name":"Crier",
+        "race":"Human",
         "items":[
             "Knife (hand, 0 wt)",
             "plumed hat (worn, 0 wt)"
@@ -162,6 +185,7 @@ const occupations = [
     },
     {
         "name":"Crofter",
+        "race":"Human",
         "items":[
             "Pitchfork (close, reach, 1 wt)",
             "bushel of turnips (4 rations, 2 wt)"
@@ -169,6 +193,7 @@ const occupations = [
     },
     {
         "name":"Crofter",
+        "race":"Human",
         "items":[
             "Pitchfork (close, reach, 1 wt)",
             "bushel of potatoes (4 rations, 2 wt)"
@@ -176,6 +201,7 @@ const occupations = [
     },
     {
         "name":"Crofter",
+        "race":"Human",
         "items":[
             "Pitchfork (close, reach, 1 wt)",
             "bushel of onions (4 rations, 2 wt)"
@@ -183,6 +209,7 @@ const occupations = [
     },
     {
         "name":"Crofter",
+        "race":"Human",
         "items":[
             "Pitchfork (close, reach, 1 wt)",
             "bushel of oats (4 rations, 2 wt)"
@@ -190,68 +217,78 @@ const occupations = [
     },
     {
         "name":"Ditch digger",
+        "race":"Human",
         "items":[
             "Shovel (close, awkward, 2 wt)"
         ]
     },
     {
         "name":"Dung carter",
+        "race":"Human",
         "items":[
             "Shovel (close, awkward, 2 wt)",
             "pushcart full of dung "
         ]
     },
     {
-        "name":"Dwarf miner",
+        "name":"Miner",
+        "race":"Dwarf",
         "items":[
             "Pick (close, +1 damage, 2 wt)",
             "adventuring gear (1d4 uses, 1 wt)"
         ]
     },
     {
-        "name":"Dwarf smith",
+        "name":"Smith",
+        "race":"Dwarf",
         "items":[
             "Hammer (close, 1 wt)",
             "burlap sack (0 wt), 1d4 iron ingots (1 wt ea.)"
         ]
     },
     {
-        "name":"Dwarf mason",
+        "name":"Mason",
+        "race":"Dwarf",
         "items":[
             "Hammer (close, 1 wt)",
             "chisel (hand, awkward, 1 wt)"
         ]
     },
     {
-        "name":"Dwarf trapper",
+        "name":"Trapper",
+        "race":"Dwarf",
         "items":[
             "Knife (hand, 0 wt)",
             "burlap sack (0 wt), 1d4 mole traps (1 wt ea.)"
         ]
     },
     {
-        "name":"Elf hunter",
+        "name":"Hunter",
+        "race":"Elf",
         "items":[
             "Shortbow (near, far, 1 wt)",
             "arrows (1d4 ammo, 1 wt)"
         ]
     },
     {
-        "name":"Elf troubador",
+        "name":"Troubador",
+        "race":"Elf",
         "items":[
             "Knife (hand, 0 wt)",
             "elven lyre (1 wt)"
         ]
     },
     {
-        "name":"Elf wanderer",
+        "name":"Wanderer",
+        "race":"Elf",
         "items":[
             "Staff (close, reach, 1 wt)",
             "hooded cloak (worn, 0 wt)"
         ]
     },
     {
-        "name":"Elf weaver",
+        "name":"Weaver",
+        "race":"Elf",
         "items":[
             "Knife (hand, 0 wt)",
             "bolt of silk (2 wt)"
@@ -259,12 +296,14 @@ const occupations = [
     },
     {
         "name":"Executioner",
+        "race":"Human",
         "items":[
             "Executioner axe (close, 2-handed, messy, +1 damage, 2 wt) ,black hood (worn, 0 wt)"
         ]
     },
     {
         "name":"Falconer",
+        "race":"Human",
         "items":[
             "Knife (hand, 0 wt)",
             "leather gauntlet (0 wt), falcon"
@@ -272,6 +311,7 @@ const occupations = [
     },
     {
         "name":"Ferry pilot",
+        "race":"Human",
         "items":[
             "Club (close, 2 wt)",
             "10ft pole "
@@ -279,6 +319,7 @@ const occupations = [
     },
     {
         "name":"Fisherperson",
+        "race":"Human",
         "items":[
             "Knife (hand, 0 wt)",
             "fishing net (reach, thrown)"
@@ -286,6 +327,7 @@ const occupations = [
     },
     {
         "name":"Fisherperson",
+        "race":"Human",
         "items":[
             "Knife (hand, 0 wt)",
             "fishing net (reach, thrown)"
@@ -293,6 +335,7 @@ const occupations = [
     },
     {
         "name":"Fisherperson",
+        "race":"Human",
         "items":[
             "Knife (hand, 0 wt)",
             "fishing net (reach, thrown)"
@@ -300,6 +343,7 @@ const occupations = [
     },
     {
         "name":"Fletcher",
+        "race":"Human",
         "items":[
             "Shortbow (near, far, 1 wt)",
             "arrows (1d4 ammo, 1 wt)"
@@ -307,6 +351,7 @@ const occupations = [
     },
     {
         "name":"Footpad",
+        "race":"Human",
         "items":[
             "Sap (hand, stun damage, 0 wt)",
             "burlap sack (0 wt)"
@@ -314,6 +359,7 @@ const occupations = [
     },
     {
         "name":"Forager",
+        "race":"Human",
         "items":[
             "Sickle (hand, messy, 1 wt)",
             "burlap sack (0 wt), mushrooms     (1d4 rations, 1 wt)"
@@ -321,6 +367,7 @@ const occupations = [
     },
     {
         "name":"Forester",
+        "race":"Human",
         "items":[
             "Shortbow (near, far, 1 wt)",
             "arrows (1d4 ammo, 1 wt)"
@@ -328,6 +375,7 @@ const occupations = [
     },
     {
         "name":"Goatherd",
+        "race":"Human",
         "items":[
             "Crook (reach, awkward, 1 wt)",
             "1d4 goats"
@@ -335,6 +383,7 @@ const occupations = [
     },
     {
         "name":"Goatherd",
+        "race":"Human",
         "items":[
             "Crook (reach, awkward, 1 wt)",
             "1d4 goats"
@@ -342,6 +391,7 @@ const occupations = [
     },
     {
         "name":"Goatherd",
+        "race":"Human",
         "items":[
             "Crook (reach, awkward, 1 wt)",
             "1d4 goats"
@@ -349,33 +399,38 @@ const occupations = [
     },
     {
         "name":"Gravedigger",
+        "race":"Human",
         "items":[
             "Shovel (close, awkward, 2 wt)"
         ]
     },
     {
-        "name":"Halfling brewer",
+        "name":"Brewer",
+        "race":"Halfling",
         "items":[
             "Staff (close, 2-handed, 1 wt)",
             "cask of beer (2 rations, 2 wt)"
         ]
     },
     {
-        "name":"Halfling cook",
+        "name":"Cook",
+        "race":"Halfling",
         "items":[
             "Cleaver (hand, +1 damage, 1 wt)",
             "meat pies (1d4 rations, 1 wt)"
         ]
     },
     {
-        "name":"Halfling crofter",
+        "name":"Crofter",
+        "race":"Halfling",
         "items":[
             "Pitchfork (close, reach, 1 wt)",
             "bushel of crop [2 wt, roll 1D4: 1 = turnips (4 rations); 2 = potatoes (4 rations); 3 =onions (4 rations), 4 =pipeweed]"
         ]
     },
     {
-        "name":"Halfling gardener",
+        "name":"Gardener",
+        "race":"Halfling",
         "items":[
             "Spade (hand, awkward, 0 wt)",
             "wheelbarrow"
@@ -383,6 +438,7 @@ const occupations = [
     },
     {
         "name":"Healer",
+        "race":"Human",
         "items":[
             "Staff (close, 2-handed, 1 wt)",
             "shoulder bag (0 wt), bandages (1d4 uses, slow, 0 wt)"
@@ -390,6 +446,7 @@ const occupations = [
     },
     {
         "name":"Hedge wizard",
+        "race":"Human",
         "items":[
             "Staff (close, 2-handed, 1 wt)",
             "belt pouch (0 wt), 1 cantrip [roll 1D6: 1-2 = Light; 3-4 = Unseen Servant; 5-6 = Prestidigitation]"
@@ -397,6 +454,7 @@ const occupations = [
     },
     {
         "name":"Herald",
+        "race":"Human",
         "items":[
             "Shortsword (close, 1 wt)",
             "trumpet (1 wt)"
@@ -404,6 +462,7 @@ const occupations = [
     },
     {
         "name":"Herbalist",
+        "race":"Human",
         "items":[
             "Staff (close, 2-handed, 1 wt)",
             "pouch (0 wt), poultices & herbs (1d4 uses, slow, 0 wt)"
@@ -411,6 +470,7 @@ const occupations = [
     },
     {
         "name":"Hunter",
+        "race":"Human",
         "items":[
             "Shortbow (near, far, 1 wt)",
             "arrows (1d4 ammo, 1 wt)"
@@ -418,6 +478,7 @@ const occupations = [
     },
     {
         "name":"Hunter",
+        "race":"Human",
         "items":[
             "Shortbow (near, far, 1 wt)",
             "arrows (1d4 ammo, 1 wt)"
@@ -425,6 +486,7 @@ const occupations = [
     },
     {
         "name":"Hunter",
+        "race":"Human",
         "items":[
             "Shortbow (near, far, 1 wt)",
             "arrows (1d4 ammo, 1 wt)"
@@ -432,6 +494,7 @@ const occupations = [
     },
     {
         "name":"Innkeeper",
+        "race":"Human",
         "items":[
             "Club (close, 2 wt)",
             "provisions (2d4 rations, 2 wt)"
@@ -439,6 +502,7 @@ const occupations = [
     },
     {
         "name":"Lantern",
+        "race":"Human",
         "items":[
             "maker Hammer (close, 1 wt)",
             "lantern (0 wt), flask of oil (0 wt), flint & steel (0 wt)"
@@ -446,6 +510,7 @@ const occupations = [
     },
     {
         "name":"Laundress",
+        "race":"Human",
         "items":[
             "Canvas sack (0 wt)",
             "cake of soap (0 wt)"
@@ -453,6 +518,7 @@ const occupations = [
     },
     {
         "name":"Miller",
+        "race":"Human",
         "items":[
             "Club (close, 2 wt)",
             "sack of flour (2 wt)"
@@ -460,6 +526,7 @@ const occupations = [
     },
     {
         "name":"Miner",
+        "race":"Human",
         "items":[
             "Pick (close, +1 damage, 2 wt)",
             "lantern (0 wt), flask of oil (0 wt), flint & steel (0 wt)"
@@ -467,6 +534,7 @@ const occupations = [
     },
     {
         "name":"Monk",
+        "race":"Human",
         "items":[
             "Staff (close, 2-handed, 1 wt)",
             "holy symbol (0 wt)"
@@ -474,6 +542,7 @@ const occupations = [
     },
     {
         "name":"Netmaker",
+        "race":"Human",
         "items":[
             "Knife (hand, 0 wt)",
             "fishing net (reach, thrown), 50ft of rope (2 wt)"
@@ -481,6 +550,7 @@ const occupations = [
     },
     {
         "name":"Noble",
+        "race":"Human",
         "items":[
             "Longsword (close, +1 damage, 1 wt)",
             "signet ring (10 coins, 0 wt)"
@@ -488,6 +558,7 @@ const occupations = [
     },
     {
         "name":"Oxherd",
+        "race":"Human",
         "items":[
             "Whip (reach, 1 wt)",
             "ox"
@@ -495,6 +566,7 @@ const occupations = [
     },
     {
         "name":"Peddler",
+        "race":"Human",
         "items":[
             "Knife (hand, 0 wt)",
             "rucksack (worn, 0 wt), trade item [roll 1D4: 1 = pots & pans (2 wt); 2 = 2d4 knives (hand, 0 wt), 3 = adventuring gear (1d4 uses, 2 wt), 4 = 1d4 healing potions (heal 1d8, 0 wt)]"
@@ -502,6 +574,7 @@ const occupations = [
     },
     {
         "name":"Pilgrim",
+        "race":"Human",
         "items":[
             "Staff (close, 2-handed, 1 wt)",
             "holy symbol (0 wt)"
@@ -509,6 +582,7 @@ const occupations = [
     },
     {
         "name":"Potter",
+        "race":"Human",
         "items":[
             "Club (close, 2 wt)",
             "burlap sack (0 wt), 5 lbs. of clay (2 wt)"
@@ -516,6 +590,7 @@ const occupations = [
     },
     {
         "name":"Prostitute",
+        "race":"Human",
         "items":[
             "Knife (hand, 0 wt)",
             "flask of perfume (0 wt)"
@@ -523,6 +598,7 @@ const occupations = [
     },
     {
         "name":"Rat catcher",
+        "race":"Human",
         "items":[
             "Club (close, 2 wt)",
             "burlap sack (0 wt), 2d4 dead rats (1 wt)"
@@ -530,6 +606,7 @@ const occupations = [
     },
     {
         "name":"Ropemaker",
+        "race":"Human",
         "items":[
             "Club (close, 2 wt)",
             "100ft of rope (2 wt)"
@@ -537,6 +614,7 @@ const occupations = [
     },
     {
         "name":"Scout",
+        "race":"Human",
         "items":[
             "Knife (hand, 0 wt)",
             "cloak (worn, 0 wt)"
@@ -544,6 +622,7 @@ const occupations = [
     },
     {
         "name":"Scribe",
+        "race":"Human",
         "items":[
             "2d4 pieces of parchment (0 wt)",
             "quill & bottle of ink (0 wt)"
@@ -551,6 +630,7 @@ const occupations = [
     },
     {
         "name":"Shepherd",
+        "race":"Human",
         "items":[
             "Crook (reach, awkward, 1 wt)",
             "1d4 sheep"
@@ -558,6 +638,7 @@ const occupations = [
     },
     {
         "name":"Shepherd",
+        "race":"Human",
         "items":[
             "Crook (reach, awkward, 1 wt)",
             "1d4 sheep"
@@ -565,6 +646,7 @@ const occupations = [
     },
     {
         "name":"Shepherd",
+        "race":"Human",
         "items":[
             "Crook (reach, awkward, 1 wt)",
             "1d4 sheep"
@@ -572,12 +654,14 @@ const occupations = [
     },
     {
         "name":"Soothsayer",
+        "race":"Human",
         "items":[
             "Nothing"
         ]
     },
     {
         "name":"Swineherd",
+        "race":"Human",
         "items":[
             "Crook (reach, awkward, 1 wt)",
             "1d4 swine"
@@ -585,6 +669,7 @@ const occupations = [
     },
     {
         "name":"Swineherd",
+        "race":"Human",
         "items":[
             "Crook (reach, awkward, 1 wt)",
             "1d4 swine"
@@ -592,6 +677,7 @@ const occupations = [
     },
     {
         "name":"Swineherd",
+        "race":"Human",
         "items":[
             "Crook (reach, awkward, 1 wt)",
             "1d4 swine"
@@ -599,6 +685,7 @@ const occupations = [
     },
     {
         "name":"Tanner",
+        "race":"Human",
         "items":[
             "Knife (hand, 0 wt)",
             "2d4 animal hides (2 wt)"
@@ -606,6 +693,7 @@ const occupations = [
     },
     {
         "name":"Thatcher",
+        "race":"Human",
         "items":[
             "Handaxe (close, 1 wt)",
             "1d4 sheaves of straw (1 wt ea.)"
@@ -613,12 +701,14 @@ const occupations = [
     },
     {
         "name":"Tinker",
+        "race":"Human",
         "items":[
             "Tinkers tools (0 wt)"
         ]
     },
     {
         "name":"Trapper",
+        "race":"Human",
         "items":[
             "Knife (hand, 0 wt)",
             "traps [roll 1D4: 1 = 2d4 rat traps (0 wt); 2 = 1d4 rabbit traps (2 wt); 3 = 1 snare trap (1 wt); 4 = 1 bear trap (2 wt)"
@@ -626,6 +716,7 @@ const occupations = [
     },
     {
         "name":"Trapper",
+        "race":"Human",
         "items":[
             "Knife (hand, 0 wt)",
             "traps [roll 1D4: 1 = 2d4 rat traps (0 wt); 2 = 1d4 rabbit traps (2 wt); 3 = 1 snare trap (1 wt); 4 = 1 bear trap (2 wt)"
@@ -633,6 +724,7 @@ const occupations = [
     },
     {
         "name":"Trapper",
+        "race":"Human",
         "items":[
             "Knife (hand, 0 wt)",
             "traps [roll 1D4: 1 = 2d4 rat traps (0 wt); 2 = 1d4 rabbit traps (2 wt); 3 = 1 snare trap (1 wt); 4 = 1 bear trap (2 wt)"
@@ -640,6 +732,7 @@ const occupations = [
     },
     {
         "name":"Undertaker",
+        "race":"Human",
         "items":[
             "Holy symbol (0 wt)",
             "coffin (4 wt)"
@@ -647,6 +740,7 @@ const occupations = [
     },
     {
         "name":"Watchman",
+        "race":"Human",
         "items":[
             "Spear (reach, thrown, near, 1 wt)",
             "helmet (worn, 0 wt), lantern (0 wt), flask of oil (0 wt), flint & steel (0 wt), horn (0 wt)"
@@ -654,6 +748,7 @@ const occupations = [
     },
     {
         "name":"Watchman",
+        "race":"Human",
         "items":[
             "Spear (reach, thrown, near, 1 wt)",
             "helmet (worn, 0 wt), lantern (0 wt), flask of oil (0 wt), flint & steel (0 wt), horn (0 wt)"
@@ -661,6 +756,7 @@ const occupations = [
     },
     {
         "name":"Watchman",
+        "race":"Human",
         "items":[
             "Spear (reach, thrown, near, 1 wt)",
             "helmet (worn, 0 wt), lantern (0 wt), flask of oil (0 wt), flint & steel (0 wt), horn (0 wt)"
@@ -668,12 +764,14 @@ const occupations = [
     },
     {
         "name":"Weaver",
+        "race":"Human",
         "items":[
             "1d4 bolts of fabric (1 wt ea.)"
         ]
     },
     {
         "name":"Woodsman",
+        "race":"Human",
         "items":[
             "Handaxe (close, 1 wt)",
             "2d4 sticks of firewood (1 wt ea.)"
@@ -681,6 +779,7 @@ const occupations = [
     },
     {
         "name":"Woodsman",
+        "race":"Human",
         "items":[
             "Handaxe (close, 1 wt)",
             "2d4 sticks of firewood (1 wt ea.)"
@@ -688,6 +787,7 @@ const occupations = [
     },
     {
         "name":"Woodsman",
+        "race":"Human",
         "items":[
             "Handaxe (close, 1 wt)",
             "2d4 sticks of firewood (1 wt ea.)"

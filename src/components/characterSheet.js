@@ -97,7 +97,7 @@ const HeartStat = styled.div`
   top: 2px;
 `;
 
-const CharacterSheet = ({name, gender, occupation, equipment, stats, traits}) => (
+const CharacterSheet = ({name, gender, occupation, race, equipment, stats, traits}) => (
   <Container>
     <Name> {name} { gender === 'Male' ? '(He/Him)' : '(She/Her)' }</Name>
     <Sheet>
@@ -123,6 +123,7 @@ const CharacterSheet = ({name, gender, occupation, equipment, stats, traits}) =>
         </div>
       </Stats>
       <Details>
+        <div> Race: {race} </div>
         <div> Occupation: {occupation} </div>
         <div> Traits: </div>
         <List>
@@ -140,10 +141,11 @@ const CharacterSheet = ({name, gender, occupation, equipment, stats, traits}) =>
 
 const mapStateToProps = (state) => {
     return {
-        name: state.name,
-        gender: state.gender,
-        occupation: state.occupation,
         equipment: state.equipment,
+        gender: state.gender,
+        name: state.name,
+        occupation: state.occupation,
+        race: state.race,
         stats: state.stats,
         traits: state.traits
     }
